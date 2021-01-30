@@ -17,6 +17,7 @@ class Content extends Component {
 
     networkRefresh() {
         this.props.dispatcher(networkController.getNetworkInformations());
+        console.log(dkdk);
     }
 
     render() {
