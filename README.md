@@ -1,5 +1,4 @@
 <h1 align="center">Welcome to moniTTool 👋</h1>
-<img alt="Diagram" src="#" />
 
 <p>
   <a href="https://twitter.com/ysndmk" target="_blank">
@@ -7,7 +6,10 @@
   </a>
 </p>
 
-> Monitoring tool using by microservice architecture pattern.
+> Monittool is a hardware monitoring tool. This tool consists of several microservices and illustrates hardware informations using by python, javaScript and redis.
+
+<img src="https://github.com/ydemek/moniTTool/blob/master/client/public/Diagram.png" />
+<img src="https://github.com/ydemek/moniTTool/blob/master/client/public/Screenshot.png" />
 
 ### 🏠 [Homepage](https://github.com/ydemek/moniTTool)
 

@@ -17,15 +17,9 @@ class Content extends Component {
 
     networkRefresh() {
         this.props.dispatcher(networkController.getNetworkInformations());
-        console.log(dkdk);
     }
 
     render() {
-        console.log(this.props);
-        // if (this.props.cpu.progress || this.props.network.progress) {
-        //     return null;
-        // }
-
         if (this.props.cpu.data.cpu === undefined) {
             return null;
         }
