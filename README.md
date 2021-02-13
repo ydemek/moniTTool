@@ -53,11 +53,10 @@ Some python modules also needed
 All set up. We just need to run services.
 
 ```bash
-  $ node web-server/app.js
-  $ node client/app.js
   $ redis-server
   $ python3 cpu-service/cpu.py
   $ python3 network-service/network.py
+  $ cd web-server && npm run dev
 ```
 
 ## Author
