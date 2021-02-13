@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to moniTTool 👋</h1>
+# Welcome to moniTTool
 
 <p>
   <a href="https://twitter.com/ysndmk" target="_blank">
@@ -8,38 +8,66 @@
 
 > Monittool is a hardware monitoring tool. This tool consists of several microservices and illustrates hardware informations using by python, javaScript and redis.
 
-<img src="https://github.com/ydemek/moniTTool/blob/master/client/public/Diagram.png" />
-<img src="https://github.com/ydemek/moniTTool/blob/master/client/public/Screenshot.png" />
 
-### 🏠 [Homepage](https://github.com/ydemek/moniTTool)
-
+![](client/public/Diagram.png)
+![](client/public/Screenshot.png)
 
 <!-- ### ✨ [Demo](https://github.com/ydemek/moniTTool) -->
 
+## Requirements
+
+* Node.js
+* Python3
+* Redis
+
 ## Installation
 
+>* Step 1:
 
+Some npm modules needed
+
+```bash
+  $ cd web-server && npm install
+  $ cd client && npm install
+```
+
+>* (optional) Step 2:
+
+It's recommended to create a virtual environment for Python.
+
+```bash
+  $ python3 -m venv <VENV_NAME>
+  $ source <VENV_NAME>/bin/activate
+```
+
+>* Step 3:
+
+Some python modules also needed
+
+```bash
+  $ python3 -m pip install -r requirements.txt
+```
+
+>* Step 4:
+
+All set up. We just need to run services.
+
+```bash
+  $ node web-server/app.js
+  $ node client/app.js
+  $ redis-server
+  $ python3 cpu-service/cpu.py
+  $ python3 network-service/network.py
+```
 
 ## Author
 
-👤 **Yasin Demek**
+:bust_in_silhouette: **Yasin Demek**
 
-* Website: https://www.linkedin.com/in/yasin-demek/
+* [Website](https://ydemek.github.io)
 * Twitter: [@ysndmk](https://twitter.com/ysndmk)
 * Github: [@ydemek](https://github.com/ydemek)
 * LinkedIn: [@yasin-demek](https://linkedin.com/in/yasin-demek)
 
-<!-- ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](issuesurl). You can also take a look at the [contributing guide](contguideurl). -->
-
-<!-- ## Show your support
-
-Give a ⭐️ if this project helped you!
-
-<a href="https://www.patreon.com/patreontest">
-  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
-</a>
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_ -->
+:bust_in_silhouette: [@lymphatic](https://github.com/lymphatic)
